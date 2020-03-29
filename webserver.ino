@@ -137,7 +137,7 @@ void printWifiStatus()
     Serial.println(ip);
 
     Serial.println();
-    Serial.print(F("To check the HTTP page open http:// in a web browser"));
+    Serial.print(F("To check the HTTP page open in a web browser http://"));
     Serial.println(ip);
     Serial.println();
 }
