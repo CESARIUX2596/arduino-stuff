@@ -35,8 +35,7 @@ void setup()
     {
         Serial.println(F("Can not detect WiFi Module"));
         // do not continue
-        while (true)
-            ;
+        while (true);
     }
 
     //Test for connection
